@@ -1,0 +1,38 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+.navbar-brand
+{
+  color: rgb(176, 176, 176);
+}
+h3
+{
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The element to apply the animation to */
+.imag {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(20px);
+  }
+  100%{
+    transform: translateY(-20px);
+  }
+
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(20px);
+  }
+  100%{
+    transform: translateY(-20px);
+  }
+
+}
